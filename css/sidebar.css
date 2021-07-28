@@ -1,0 +1,63 @@
+.no-sidebar {
+margin: 0 auto;
+}
+
+ .side-panel {
+ padding: 1em;
+ background-color: #eee;
+}
+
+.side-standard {
+border-left: 5px solid #00193c;
+}
+
+.side-alert {
+border-left: 5px solid #dc0050;
+}
+
+.side-panel li {
+ margin-bottom: 10px;
+ font-size: 0.8em;
+}
+ 
+.side-panel h2 {
+margin: 0px auto 20px;
+font-size: 1.2em;
+}
+
+.side-panel h3 {
+font-size: 1em;
+margin: 0 0 10px 0;
+}
+
+.side-panel hr {
+margin: 20px 0;
+}
+
+.side-panel p {
+font-size: 0.8em;
+}
+
+.side-panel ul {
+margin: 0;
+padding: 0 0 0 0.8em;
+}
+
+.side-panel .myAlert {
+    width: 1.4em; 
+    text-align: center;
+    position: relative;
+    top: -7px; 
+    right: -7px; 
+    color: rgb(255, 255, 255); 
+    font-size: 1em; 
+    font-weight: bold; 
+    box-sizing: border-box; 
+    background-color: rgb(230, 0, 84);
+    float: right;
+    border-radius: 50%;
+}
+
+ .page-main > h2:first-child {
+ margin-top: 0;
+}

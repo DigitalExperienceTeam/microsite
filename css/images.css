@@ -1,0 +1,24 @@
+
+.new-image img {
+    max-width: 100%;
+}
+
+.image-caption {
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 0.9em;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+}
+
+.floated-image {
+    width: 100% !important;
+    height: auto;
+    float: right;
+}
+
+@media only screen and (min-width: 500px) {
+  .floated-image {
+    width: auto !important;
+    max-width: 50% !important;
+}
+}

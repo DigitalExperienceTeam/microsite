@@ -1,0 +1,38 @@
+.box1 {
+    padding-left: 20px;
+}
+
+.standard {
+border-left: 8px solid #00193c;
+}
+
+.alerter {
+border-left: 8px solid #dc0050;
+}
+
+.box2 {
+    padding: 5px 20px;
+    background: #eee;
+    margin-bottom: 15px;
+}
+
+.myAlert {
+    width: 1.4em; 
+    text-align: center;
+    position: relative;
+    top: 7px; 
+    right: -7px; 
+    color: rgb(255, 255, 255); 
+    font-size: 1em; 
+    font-weight: bold; 
+    box-sizing: border-box; 
+    background-color: rgb(230, 0, 84);
+    float: right;
+    border-radius: 50%;
+}
+
+.introduction {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #002e6f;
+}

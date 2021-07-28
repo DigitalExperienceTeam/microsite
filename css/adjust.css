@@ -1,0 +1,78 @@
+.sidebar__content {
+ display: none !important;
+}
+
+.page-body {
+    left: 0! important;
+    width: 100% ! important;
+}
+
+.flxb-button.flxb-docked:not(.flxb-dock-full) {
+    width: 50px;
+    height: 188px;
+    bottom: auto;
+    top: calc(75% - 100px);
+}
+
+label[for="ctl00_SearchBox1_siteSearch"] {
+   display: none !important
+}
+
+#ctl00_SearchBox1_pnlSiteSearch {
+ margin-top: 18px;
+}
+
+.hero-placeholder {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.hero-placeholder img{
+    width: 100%;
+    height: auto;
+}
+
+.hero-placeholder h1 {
+    position:absolute;
+    width: 100%;
+    top: 30%;
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+    text-shadow: 2px 2px #fff;
+}
+
+.hero-placeholder h2 {
+    position:absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: red;
+    font-size: 1em;
+    text-shadow: 1px 1px #fff;
+}
+
+.email-icon:before {
+    font-family: 'FontAwesome';
+}
+
+.fb-icon:before {
+    font-family: 'FontAwesome';
+    content: '\f230';
+}
+
+.twitter-icon:before {
+    font-family: 'FontAwesome';
+    content: '\f099 ';
+}
+ 
+
+@media only screen and (min-width: 700px) {
+  .hero-placeholder h1 {
+      font-size: 4em;
+  }
+  
+  .hero-placeholder h2 {
+      font-size: 2em;
+  }
+}

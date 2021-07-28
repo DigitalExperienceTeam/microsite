@@ -1,0 +1,108 @@
+.footer-main > div.container {
+  display: block;
+  overflow: initial;
+ }
+ 
+ .footer-main {
+  padding: 1em 0;
+  font-size: 14px;
+ }
+ 
+ .footer-main .container{
+  max-width: 95%;
+ }
+ 
+.footer-column {
+ border-right: 1px solid rgba(255,255,255,0.4);
+}
+
+ .footer-column:nth-of-type(5) {
+ border-right: 0;
+}
+
+.footerLinks {
+ display: block;
+}
+
+.footerLinks a {
+ display: block;
+ margin: 5px 0;
+}
+
+.footer-column:nth-of-type(3) .footerLinks a:nth-of-type(1) {
+ margin: 0 0 5px 0;
+}
+
+.footer-column:nth-of-type(3), .footer-column:nth-of-type(4) {
+ border-right: none;
+}
+
+.stayconnected  {
+ text-align: center;
+ margin-top: 0;
+}
+
+.social-column {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.social-block {
+  align-self: flex-end;
+}
+
+.social {
+ text-align: center;
+ padding: 20px;
+}
+
+.social a {
+ display: block;
+ margin: 0 10px;
+}
+
+@media only screen and (min-width: 400px) {
+ .social a {
+ display: inline;
+}
+}
+
+
+@media only screen and (min-width: 576px) {
+
+.footer-column:nth-of-type(3) .footerLinks a:nth-of-type(1) {
+ margin: 5px 0;
+}
+
+.footer-column:nth-of-type(3) {
+ border-right: none;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+.stayconnected  {
+ text-align: left;
+}
+
+.footer-column:nth-of-type(3) {
+ border-right: 1px solid rgba(255,255,255,0.4);
+}
+
+.social {
+ text-align: left;
+ padding: 0;
+}
+
+.footerLinks a:hover {
+   color: #fff !important;
+}
+
+.social a {
+ display: block;
+ margin: 5px 0;
+}
+
+}

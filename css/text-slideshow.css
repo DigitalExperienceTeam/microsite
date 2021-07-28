@@ -1,0 +1,102 @@
+.slidetext-border {
+    padding: 18px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+/* Slideshow container */
+.slidetext-container {
+  position: relative;
+  margin: auto;
+  padding-bottom: 12px;
+}
+
+.slidetext-container h2 {
+    margin-top:0;
+    line-height: 130%
+}
+
+/* Hide the images by default */
+.textSlides {
+  display: none;
+  padding: 0;
+}
+
+.textSlides .container {
+    padding-bottom: 0;
+}
+
+.slide-image {
+    width: 100% !important;
+}
+
+.slide-buttons {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.slide-buttons button {
+    font-family: "FontAwesome";
+    background: rgba(0,46,111);
+    color: #fff;
+    padding: 8px;
+    border: 0;
+    transition: 0.4s all;
+    box-sizing: border-box;
+}
+
+.slide-buttons button:hover {
+    background-color: #438dcc;
+}
+
+.slide-buttons button:focus {
+    border: none;
+    outline: none;
+}
+
+.prevSlide {
+    border-radius: 50% 0 0 50%;
+}
+
+.nextSlide {
+    border-radius: 0 50% 50% 0%;
+}
+
+.play-pause {
+    border-radius: 0;
+    margin: 0 1px;
+    width: 36px;
+}
+
+.play-pause {
+     content: "\f04c"
+}
+
+/* Fading animation */
+.fader {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fader;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fader {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fader {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+        
+        
+@media only screen and (max-width: 1200px) {
+   .textSlides img {
+     margin-bottom: 20px;
+  }
+  
+
+}
+

@@ -277,9 +277,6 @@ position: relative;
   padding-bottom: 25px;
  }
  
- .nav-link:focus {
- outline: 1px solid #000;
-}
 
 }
 
